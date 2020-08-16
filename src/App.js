@@ -9,6 +9,9 @@ export default class App extends Component {
                 <Route path={'/'} exact>
                     <Movies />
                 </Route>
+                <Route path={'/signup'}>
+                    <Signup />
+                </Route>
             </Switch>
         )
     }
