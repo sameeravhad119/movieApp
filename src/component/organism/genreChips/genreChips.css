@@ -1,0 +1,15 @@
+.genreChips{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.genreChips .chip{
+    text-align: center;
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.genreChips .chip.active{
+   background-color: yellow;
+}

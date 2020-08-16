@@ -3,7 +3,7 @@ import { GET_MOVIE_LIST } from '../redux/types/movies';
 import { getMovieList } from './movies';
 
 function* rootSaga() {
-    return all([
+    yield all([
         takeLatest(GET_MOVIE_LIST, getMovieList)
     ])
 }

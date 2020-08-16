@@ -35,8 +35,9 @@ class User {
             let movieList = await movies.find().exec();
             console.log('movieList', movieList);
             res.send({
-                count: movieList.length,
-                data: movieList
+                data: movieList,
+                status: true,
+                message: 'Success'
             })
         } catch (error) {
             next(error)
