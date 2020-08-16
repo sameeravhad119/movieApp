@@ -24,7 +24,7 @@ class Movie extends Component {
                 </div>
                 <div>
                     <span>Genre: </span>
-                    <span>{genre.map(value => <span>{value}</span>)}</span>
+                    <span>{genre.map(value => <span>{value} </span>)}</span>
                 </div>
 
             </div>
